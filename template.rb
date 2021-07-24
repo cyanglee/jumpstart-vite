@@ -60,6 +60,7 @@ def add_gems
   gem 'hotwire-rails'
   gem 'vite_rails'
   gem 'js_from_routes', group: :development
+  gem 'slim-rails'
 
   # Remove sass-rails
   gsub_file "Gemfile", /^gem\s+["']sass-rails["'].*$/,''
